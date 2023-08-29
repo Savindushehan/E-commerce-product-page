@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Poppins:wght@200&display=swap');
 
-
-
-@media only screen and (min-width:1400px){
  
 body{
     margin: 0;
     padding: 0;
     background-color: white;
 }
+
+
+@media only screen and (min-width:1400px){
+ 
 header{
     display: flex;
     flex-direction: row;
@@ -30,6 +31,12 @@ header .R1{
 header .R1 img{
   height: 20%;
   margin-right: 5%;
+}
+header .M1{
+    margin-right: 5%;
+}
+#z3{
+    background-color:  hsl(26, 100%, 55%);
 }
 header h3{
     margin-right: 3.5%;
