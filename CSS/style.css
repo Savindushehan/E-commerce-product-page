@@ -34,8 +34,16 @@ header .R1 img{
 }
 header .M1{
     margin-right: 5%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-#z3{
+#z3,#z1,#z2,#z4,#z5{
+    display: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
     background-color:  hsl(26, 100%, 55%);
 }
 header h3{
@@ -60,6 +68,22 @@ header .R2 img{
     justify-content: center;
     align-items: center;
     margin-top: 5vh;
+}
+#cart{
+    top: 10vh;
+    right: 10vw;
+    width: 18vw;
+    height: 30vh;
+    position: absolute;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Kumbh Sans', sans-serif;
+    border-radius: 0.5vw;
+    display: none;
+}
+#cart1{
+    font-size: 16px;
+    margin-left: 5vw;
 }
 main .side1{
     display: flex;
@@ -158,8 +182,9 @@ main .side2{
     cursor: pointer;
 }
 .W2{
-    width:60%;
-    height: 25px;
+    cursor: pointer;
+    width:50%;
+    height: 30px;
     background-color: hsl(26, 100%, 55%);
     border-radius: 5px;
     text-align: center;
