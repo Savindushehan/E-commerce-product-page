@@ -103,7 +103,6 @@ header .R2 img{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 #cart1{
     font-size: 16px;
