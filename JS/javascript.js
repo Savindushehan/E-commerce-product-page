@@ -10,11 +10,17 @@ var M2=document.getElementById("m2");
 var M3=document.getElementById("m3");
 var M4=document.getElementById("m4");
 var M5=document.getElementById("m5");
+var D1=document.getElementById("d1");
+var Num=document.getElementById("num");
+var D2=document.getElementById("d2");
+var BTN=document.getElementById("btn");
+var CART=document.getElementById("cart");
 
 
 
 M1.onmousemove=function(){
     Z1.style.display="block";
+    Z1.style.margin=0;
 }
 M1.onmouseout=function(){
     Z1.style.display="none";
@@ -46,4 +52,24 @@ M5.onmousemove=function(){
 }
 M5.onmouseout=function(){
     Z5.style.display="none";
+}
+var y = 1; // Declare y outside the function
+
+D2.onclick = function() {
+    Num.innerHTML = y;
+    y++; // Increment y
+}
+
+D1.onclick = function() {
+    if(y!=0){
+        y--; // Decrement y
+     Num.innerHTML = y;
+    }
+    else{
+        return 0;
+    }
+}
+
+BTN.onclick=function(){
+    CART.style.display="block";
 }
