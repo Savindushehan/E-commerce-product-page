@@ -69,11 +69,16 @@ header .R2 img{
     align-items: center;
     margin-top: 5vh;
 }
+#cart h2{
+    font-size: 16px;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin-left: 0.5vw;
+}
 #cart{
     top: 10vh;
     right: 10vw;
-    width: 18vw;
-    height: 30vh;
+    width: 20vw;
+    height: 32vh;
     position: absolute;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     background-color: hsl(0, 0%, 100%);
@@ -84,11 +89,14 @@ header .R2 img{
 #IP1{
     width: 4rem;
     height: 4rem;
+    margin: 0;
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
 }
 .sub1{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 .sub2{
@@ -100,6 +108,33 @@ header .R2 img{
 #cart1{
     font-size: 16px;
     margin-left: 5vw;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 14px;
+    margin-left: 0;
+    margin-right: 0;
+}
+#cart2{
+    font-size: 16px;
+    margin-left: 5vw;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 14px;
+    margin-left: 0;
+    margin-right: 0;
+}
+#check{
+    background-color:  hsl(26, 100%, 55%);
+    border: none;
+    outline: none;
+    font-family: 'Kumbh Sans', sans-serif;
+    color:  hsl(0, 0%, 100%);
+    cursor: pointer;
+    width: 18vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    margin-bottom: 2vh;
 }
 main .side1{
     display: flex;

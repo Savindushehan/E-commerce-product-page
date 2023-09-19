@@ -15,6 +15,17 @@ var Num=document.getElementById("num");
 var D2=document.getElementById("d2");
 var BTN=document.getElementById("btn");
 var CART=document.getElementById("cart");
+var CART2=document.getElementById("cart2");
+var P6=document.getElementById("p6");
+var P1=document.getElementById("p1");
+var P2=document.getElementById("p2");
+var P3=document.getElementById("p3");
+var P4=document.getElementById("p4");
+var P5=document.getElementById("p5");
+var P7=document.getElementById("p7");
+var P8=document.getElementById("p8");
+
+
 
 
 
@@ -53,11 +64,11 @@ M5.onmousemove=function(){
 M5.onmouseout=function(){
     Z5.style.display="none";
 }
-var y = 1; // Declare y outside the function
+var y = 0; // Declare y outside the function
 
 D2.onclick = function() {
-    Num.innerHTML = y;
     y++; // Increment y
+    Num.innerHTML = y;
 }
 
 D1.onclick = function() {
@@ -72,4 +83,46 @@ D1.onclick = function() {
 
 BTN.onclick=function(){
     CART.style.display="block";
+    CART2.innerHTML="$125.00 x "+y+" "+(125.0*y);
+    P6.style.filter="opacity(50%";
+}
+P5.onclick=function(){
+    P5.style.filter="opacity(50%)";
+    P6.style.filter="none";
+    P7.style.filter="none";
+    P8.style.filter="none";
+    P1.style.display="block";
+    P3.style.display="none";
+    P4.style.display="none";
+    P2.style.display="none";
+}
+P6.onclick=function(){
+    P6.style.filter="opacity(50%)";
+    P5.style.filter="none";
+    P7.style.filter="none";
+    P8.style.filter="none";
+    P1.style.display="none";
+    P3.style.display="none";
+    P4.style.display="none";
+    P2.style.display="block";
+}
+P7.onclick=function(){
+    P7.style.filter="opacity(50%)";
+    P6.style.filter="none";
+    P5.style.filter="none";
+    P8.style.filter="none";
+    P1.style.display="none";
+    P3.style.display="block";
+    P4.style.display="none";
+    P2.style.display="none";
+}
+P8.onclick=function(){
+    P8.style.filter="opacity(50%)";
+    P6.style.filter="none";
+    P7.style.filter="none";
+    P5.style.filter="none";
+    P1.style.display="none";
+    P3.style.display="none";
+    P4.style.display="block";
+    P2.style.display="none";
 }
