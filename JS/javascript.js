@@ -33,6 +33,7 @@ var i2=document.getElementById("I2");
 
 M1.onmousemove=function(){
     Z1.style.display="block";
+    Z1.style.width="3.5rem";
     Z1.style.margin=0;
 }
 M1.onmouseout=function(){
@@ -41,6 +42,8 @@ M1.onmouseout=function(){
 
 M2.onmousemove=function(){
     Z2.style.display="block";
+    Z2.style.width="1.5rem";
+
 }
 M2.onmouseout=function(){
     Z2.style.display="none";
@@ -48,6 +51,8 @@ M2.onmouseout=function(){
 
 M3.onmousemove=function(){
     Z3.style.display="block";
+    Z3.style.width="2.5rem";
+
 }
 M3.onmouseout=function(){
     Z3.style.display="none";
@@ -55,6 +60,8 @@ M3.onmouseout=function(){
 
 M4.onmousemove=function(){
     Z4.style.display="block";
+    Z4.style.width="2rem";
+
 }
 M4.onmouseout=function(){
     Z4.style.display="none";
@@ -62,6 +69,8 @@ M4.onmouseout=function(){
 
 M5.onmousemove=function(){
     Z5.style.display="block";
+    Z5.style.width="2.5rem";
+
 }
 M5.onmouseout=function(){
     Z5.style.display="none";
