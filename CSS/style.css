@@ -57,8 +57,8 @@ header .R2{
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
+
 header .R2 img{
     height: 12%;
     margin-right: 20%;
@@ -76,6 +76,10 @@ header .R2 img{
     font-size: 16px;
     font-family: 'Kumbh Sans', sans-serif;
     margin-left: 0.5vw;
+}
+#I2{
+    border-radius: 50%;
+    
 }
 #cart{
     top: 10vh;

@@ -94,9 +94,9 @@ D1.onclick = function() {
 
 BTN.onclick=function(){
     CART.style.display="block";
-    CART2.innerHTML="$125.00 x "+y+" "+(125.0*y);
+    CART2.innerHTML="$125.00 x "+y+" = "+(125.0*y);
     P5.style.filter="opacity(50%)";
-    i2.style.borderColor="hsl(26, 100%, 55%)";
+    i2.style.border=" 4px solid hsl(26, 100%, 55%)";
 }
 P5.onclick=function(){
     P5.style.filter="opacity(50%)";
