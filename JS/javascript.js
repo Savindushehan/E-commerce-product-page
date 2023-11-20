@@ -136,5 +136,5 @@ P8.onclick=function(){
     P1.style.display="none";
     P3.style.display="none";
     P4.style.display="block";
-    P2.style.display="none";
+    P2.style.display="none"; 
 }
