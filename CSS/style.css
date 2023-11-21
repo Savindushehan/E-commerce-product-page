@@ -9,21 +9,34 @@ body{
     background-color: white;
     font-family: 'Kumbh Sans', sans-serif;
     width: 20rem;
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    border: 2px solid red;
 }
 header{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     width: 20rem;
-    border: 2px solid black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
-   
+#menu{
+    margin-right: 1rem;
+}
+ main{
+    display: flex;
+    flex-direction: column-reverse;
+ }
+ #I1{
+    margin-left: 3rem;
+ }
+ #I1,#I2{
+    width: 2rem;
+    height: 1.5rem;
+ }
 header .R1{
     width: 60%;
     display: flex;
@@ -40,6 +53,9 @@ header .M1{
     justify-content: center;
     align-items: center;
 }
+.M1 h3{
+    display: none;
+}
 #z3,#z1,#z2,#z4,#z5{
     display: none;
     padding-top: 5px;
@@ -54,7 +70,12 @@ header h3{
 header .R2{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
+}
+header .R0{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 header .R2 img{
     height: 12%;
@@ -167,7 +188,6 @@ main .side1 .row1 img{
 }
 main .side2{
     font-family: 'Kumbh Sans', sans-serif;
-    margin-left: 5vw;
     width: 20rem;
 }
 .side2 h3{
@@ -212,7 +232,9 @@ main .side2{
 .W1{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: space-around;
+    width: 20rem;
+    margin-bottom: 1rem;
 }
 #p1{
     cursor: pointer;
@@ -226,9 +248,10 @@ main .side2{
 }
 .RR2{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 25px;
 }
+
 #d1{
     border: none;
     margin-right: 16px;
@@ -277,12 +300,35 @@ main .side2{
 }
 #p9,#p10,#p11,#p12{
     width: 20rem;
+    height: 17rem;
 }
 #p10,#p11,#p12{
     display: none;
 }
 #p13,#p14,#p15,#p16,#p17{
     display:none;
+}
+#p18{
+    position: absolute;
+    top:35%;
+    right: 39%;
+    border-radius: 50%;
+    background-color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+#p19{
+    position: absolute;
+    top: 35%;
+    left: 39%;
+    border-radius: 50%;
+    background-color: white;
+   padding-top: 0.5rem;
+   padding-bottom: 0.5rem;
+   padding-left: 0.5rem;
+   padding-right: 0.5rem;
 }
 
 @media only screen and (min-width:1300px){
