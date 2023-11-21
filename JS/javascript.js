@@ -39,7 +39,7 @@ var P18=document.getElementById("p18");
 var P19=document.getElementById("p19");
 var Body=document.getElementById("body");
 var F1=document.getElementById("f1");
-
+var FOOTER=document.getElementById("footer");
 
 
 
@@ -156,26 +156,26 @@ P8.onclick=function(){
 
 
 P1.onclick=function(){
-    Body.style.backgroundColor=" hsl(0, 0%, 100%)";
-    Body.style.opacity="99%";
+    F1.style.backgroundColor="black";
+    F1.style.filter="opacity(75%)";
     F1.style.display="block";
 }
 
 P2.onclick=function(){
-    Body.style.backgroundColor=" hsl(0, 0%, 100%)";
-    Body.style.opacity="99%";
+    F1.style.backgroundColor="black";
+    F1.style.filter="opacity(75%)";
     F1.style.display="block";
 }
 
 P3.onclick=function(){
-    Body.style.backgroundColor=" hsl(0, 0%, 100%)";
-    Body.style.opacity="99%";
+    F1.style.backgroundColor="black";
+    F1.style.filter="opacity(75%)";
     F1.style.display="block";
 }
 
 P4.onclick=function(){
-    Body.style.backgroundColor=" hsl(0, 0%, 100%)";
-    Body.style.opacity="99%";
+    F1.style.backgroundColor="black";
+    F1.style.filter="opacity(75%)";
     F1.style.display="block";
 }
 var Q=1;

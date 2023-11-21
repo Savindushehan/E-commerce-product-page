@@ -263,15 +263,15 @@ main .side2{
     margin-right: 16px;
     width: 16px;
 }
-
 }
+
+
 @media only screen and (min-width:1200px){
  body{
         margin: 0;
         padding: 0;
         background-color: white;
         font-family: 'Kumbh Sans', sans-serif;
-        width: 100%;
  }
 header{
     display: flex;
@@ -304,13 +304,11 @@ header .M1{
 }
 #z3,#z1,#z2,#z4,#z5{
     display: none;
-   /* padding-left: 30px;
-    padding-right: 30px;
-    */
     padding-top: 5px;
     background-color:  hsl(26, 100%, 55%);
     position: absolute;
     margin-top: 5%;
+    transition: 1;
 }
 header h3{
     margin-right: 3.5%;
@@ -581,7 +579,12 @@ main .side2{
     margin-right: 1rem;
 }
 #f1{
+    position: absolute;
     display: none;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    overflow-x: hidden;
 }
 
 }
