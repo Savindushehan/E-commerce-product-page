@@ -153,12 +153,31 @@ P8.onclick=function(){
     P4.style.display="block";
     P2.style.display="none"; 
 }
+
+
 P1.onclick=function(){
     Body.style.backgroundColor=" hsl(0, 0%, 100%)";
     Body.style.opacity="99%";
     F1.style.display="block";
 }
 
+P2.onclick=function(){
+    Body.style.backgroundColor=" hsl(0, 0%, 100%)";
+    Body.style.opacity="99%";
+    F1.style.display="block";
+}
+
+P3.onclick=function(){
+    Body.style.backgroundColor=" hsl(0, 0%, 100%)";
+    Body.style.opacity="99%";
+    F1.style.display="block";
+}
+
+P4.onclick=function(){
+    Body.style.backgroundColor=" hsl(0, 0%, 100%)";
+    Body.style.opacity="99%";
+    F1.style.display="block";
+}
 var Q=1;
 
 P18.onclick=function(){
@@ -248,10 +267,8 @@ P18.onclick=function(){
             return Q=1;
         }
     }
-
-    P9.onclick=function(){
-        F1.style.display="block";
-        F1.style.backgroundColor="black";
-        Body.style.filter="opacity(50%)";
+    P17.onclick=function(){
+        F1.style.display="none";
     }
+   
 }
