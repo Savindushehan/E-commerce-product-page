@@ -26,6 +26,21 @@ var P7=document.getElementById("p7");
 var P8=document.getElementById("p8");
 var i1=document.getElementById("I1");
 var i2=document.getElementById("I2");
+var P9=document.getElementById("p9");
+var P10=document.getElementById("p10");
+var P11=document.getElementById("p11");
+var P12=document.getElementById("p12");
+var P13=document.getElementById("p13");
+var P14=document.getElementById("p14");
+var P15=document.getElementById("p15");
+var P16=document.getElementById("p16");
+var P17=document.getElementById("p17");
+var P18=document.getElementById("p18");
+var P19=document.getElementById("p19");
+var Body=document.getElementById("body");
+var F1=document.getElementById("f1");
+
+
 
 
 
@@ -75,16 +90,16 @@ M5.onmousemove=function(){
 M5.onmouseout=function(){
     Z5.style.display="none";
 }
-var y = 0; // Declare y outside the function
+var y = 0; 
 
 D2.onclick = function() {
-    y++; // Increment y
+    y++; 
     Num.innerHTML = y;
 }
 
 D1.onclick = function() {
     if(y!=0){
-        y--; // Decrement y
+        y--; 
      Num.innerHTML = y;
     }
     else{
@@ -137,4 +152,106 @@ P8.onclick=function(){
     P3.style.display="none";
     P4.style.display="block";
     P2.style.display="none"; 
+}
+P1.onclick=function(){
+    Body.style.backgroundColor=" hsl(0, 0%, 100%)";
+    Body.style.opacity="99%";
+    F1.style.display="block";
+}
+
+var Q=1;
+
+P18.onclick=function(){
+    if(Q==1){
+        P13.style.filter="opacity(50%)";
+        P14.style.filter="none";
+        P15.style.filter="none";
+        P16.style.filter="none";
+        P9.style.display="block";
+        P10.style.display="none";
+        P11.style.display="none";
+        P12.style.display="none";
+        ++Q;
+    }
+    else if(Q==2){
+        P14.style.filter="opacity(50%)";
+        P13.style.filter="none";
+        P15.style.filter="none";
+        P16.style.filter="none";
+        P10.style.display="block";
+        P9.style.display="none";
+        P11.style.display="none";
+        P12.style.display="none";
+        ++Q;
+
+    }
+    else if(Q==3){
+        P15.style.filter="opacity(50%)";
+        P13.style.filter="none";
+        P14.style.filter="none";
+        P16.style.filter="none";
+        P11.style.display="block";
+        P9.style.display="none";
+        P10.style.display="none";
+        P12.style.display="none";
+        ++Q;
+
+    }
+    else if(Q==4){
+        P16.style.filter="opacity(50%)";
+        P13.style.filter="none";
+        P14.style.filter="none";
+        P15.style.filter="none";
+        P12.style.display="block";
+        P9.style.display="none";
+        P10.style.display="none";
+        P11.style.display="none";
+    }
+
+    P19.onclick=function(){
+        --Q;
+         if(Q==3){
+            P15.style.filter="opacity(50%)";
+            P13.style.filter="none";
+            P14.style.filter="none";
+            P16.style.filter="none";
+            P11.style.display="block";
+            P9.style.display="none";
+            P10.style.display="none";
+            P12.style.display="none";
+            --Q;
+    
+        }
+        else if(Q==2){
+            P14.style.filter="opacity(50%)";
+            P13.style.filter="none";
+            P15.style.filter="none";
+            P16.style.filter="none";
+            P10.style.display="block";
+            P9.style.display="none";
+            P11.style.display="none";
+            P12.style.display="none";
+            --Q;
+    
+        }
+        else if(Q==1){
+            P13.style.filter="opacity(50%)";
+            P14.style.filter="none";
+            P15.style.filter="none";
+            P16.style.filter="none";
+            P9.style.display="block";
+            P10.style.display="none";
+            P11.style.display="none";
+            P12.style.display="none";
+        }
+        else{
+            return Q=1;
+        }
+    }
+
+    P9.onclick=function(){
+        F1.style.display="block";
+        F1.style.backgroundColor="black";
+        Body.style.filter="opacity(50%)";
+    }
 }
