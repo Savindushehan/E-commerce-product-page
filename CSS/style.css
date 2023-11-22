@@ -101,8 +101,8 @@ header .R2 img{
     
 }
 #cart{
-    top: 10vh;
-    right: 10vw;
+    top: 12vh;
+    right: 40%;
     width: 20vw;
     height: 32vh;
     position: absolute;
@@ -330,6 +330,13 @@ main .side2{
    padding-bottom: 0.5rem;
    padding-left: 0.5rem;
    padding-right: 0.5rem;
+}
+#ccc{
+    display: none;
+    position: absolute;
+    top: 2%;
+    color: hsl(26, 100%, 55%);
+    right: 42%;
 }
 
 @media only screen and (min-width:1300px){
@@ -651,6 +658,13 @@ main .side2{
     height: 100vh;
     top: 0;
     overflow-x: hidden;
+}
+#ccc{
+    display: none;
+    position: absolute;
+    top: 2%;
+    color: hsl(26, 100%, 55%);
+    right: 15%;
 }
 
 }
