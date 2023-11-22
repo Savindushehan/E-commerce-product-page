@@ -98,12 +98,11 @@ header .R2 img{
 }
 #I2{
     border-radius: 50%;
-    
 }
 #cart{
     top: 12vh;
-    right: 40%;
-    width: 20vw;
+    right: 38%;
+    width: 18rem;
     height: 32vh;
     position: absolute;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
@@ -203,7 +202,7 @@ main .side2{
 .side2 h4{
     width:90%;
     font-size: 12px;
-    line-height: 2vw;
+    line-height: 1rem;
     color: hsl(219, 9%, 45%);
 }
 .RR1{
