@@ -162,26 +162,18 @@ P8.onclick=function(){
 
 
 P1.onclick=function(){
-    F1.style.backgroundColor="black";
-    F1.style.filter="opacity(90%)";
     F1.style.display="block";
 }
 
 P2.onclick=function(){
-    F1.style.backgroundColor="black";
-    F1.style.filter="opacity(90%)";
     F1.style.display="block";
 }
 
 P3.onclick=function(){
-    F1.style.backgroundColor="black";
-    F1.style.filter="opacity(90%)";
     F1.style.display="block";
 }
 
 P4.onclick=function(){
-    F1.style.backgroundColor="black";
-    F1.style.filter="opacity(90%)";
     F1.style.display="block";
 }
 var Q=1;
