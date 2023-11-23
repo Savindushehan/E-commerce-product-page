@@ -41,6 +41,8 @@ var Body=document.getElementById("body");
 var F1=document.getElementById("f1");
 var FOOTER=document.getElementById("footer");
 var CCC=document.getElementById("ccc");
+var NEW=document.getElementById("new");
+var MENU=document.getElementById("menu");
 
 
 
@@ -273,4 +275,50 @@ P18.onclick=function(){
         F1.style.display="none";
     }
    
+}
+
+MENU.onclick=function(){
+    M1.style.display="block";
+    M1.style.position="absolute";
+    M2.style.display="block";
+    M2.style.position="absolute";
+    M3.style.display="block";
+    M3.style.position="absolute";
+    M4.style.display="block";
+    M4.style.position="absolute";
+    M5.style.display="block";
+    M5.style.position="absolute";
+    M5.style.left="1rem";
+    M1.style.left="1rem";
+    M2.style.left="1rem";
+    M3.style.left="1rem";
+    M4.style.left="1rem";
+    M1.style.top="4rem";
+    M2.style.top="6rem";
+    M3.style.top="8rem";
+    M4.style.top="10rem";
+    M5.style.top="12rem";
+    M5.style.zIndex="5";
+    M1.style.zIndex="5";
+    M2.style.zIndex="5";
+    M3.style.zIndex="5";
+    M4.style.zIndex="5";
+    NEW.style.display="block";
+    P17.style.display="block";
+    P17.style.position="absolute";
+    P17.style.zIndex="5";
+    P17.style.left="1rem";
+    P17.style.top="2rem";
+    P19.style.display="none";
+}
+
+P17.onclick=function(){
+    NEW.style.display="none";
+    P19.style.display="block";
+    M1.style.display="none";
+    M2.style.display="none";
+    M3.style.display="none";
+    M4.style.display="none";
+    M5.style.display="none";
+    P17.style.display="none";
 }

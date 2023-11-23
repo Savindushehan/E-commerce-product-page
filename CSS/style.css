@@ -335,6 +335,15 @@ main .side2{
     color: hsl(26, 100%, 55%);
     right: 6rem;
 }
+#new{
+    display: none;
+    width: 15rem;
+    position: absolute;
+    background-color: white;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
 }
 @media only screen and (min-width:1400px){
  body{
