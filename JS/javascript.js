@@ -51,7 +51,6 @@ var MENU=document.getElementById("menu");
 M1.onmousemove=function(){
     Z1.style.display="block";
     Z1.style.width="3.5rem";
-    Z1.style.margin=0;
 }
 M1.onmouseout=function(){
     Z1.style.display="none";
