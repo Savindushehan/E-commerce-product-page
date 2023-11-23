@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Poppins:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;400&family=Poppins:wght@200&family=Raleway:wght@100&family=Roboto:wght@300&display=swap');
  
-@media only screen and (max-width:1299px){
+@media only screen and (max-width:1399px){
 
 body{
     margin: 0;
@@ -101,9 +101,8 @@ header .R2 img{
 }
 #cart{
     top: 12vh;
-    right: 38%;
     width: 18rem;
-    height: 32vh;
+    height: 12rem;
     position: absolute;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     background-color: hsl(0, 0%, 100%);
@@ -153,13 +152,13 @@ header .R2 img{
     font-family: 'Kumbh Sans', sans-serif;
     color:  hsl(0, 0%, 100%);
     cursor: pointer;
-    width: 18vw;
+    width: 16rem;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 10px;
     margin-top: 2vh;
-    margin-left: 1vw;
     margin-bottom: 2vh;
+    margin-left: 1rem;
 }
 main .side1{
     display: none;
@@ -310,8 +309,8 @@ main .side2{
 }
 #p18{
     position: absolute;
-    top:35%;
-    right: 39%;
+    right: 2rem;
+    top: 10rem;
     border-radius: 50%;
     background-color: white;
     padding-top: 0.5rem;
@@ -321,8 +320,8 @@ main .side2{
 }
 #p19{
     position: absolute;
-    top: 35%;
-    left: 39%;
+    top: 10rem;
+    left: 2rem;
     border-radius: 50%;
     background-color: white;
    padding-top: 0.5rem;
@@ -338,7 +337,7 @@ main .side2{
     right: 42%;
 }
 }
-@media only screen and (min-width:1300px){
+@media only screen and (min-width:1400px){
  body{
         margin: 0;
         padding: 0;
