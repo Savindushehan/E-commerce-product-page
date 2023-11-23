@@ -65,6 +65,8 @@ header .M1{
 header h3{
     margin-right: 3.5%;
     cursor: pointer;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
 }
 header .R2{
     display: flex;
@@ -189,19 +191,23 @@ main .side2{
     width: 20rem;
 }
 .side2 h3{
-    font-size: 13px;
+    font-size: 15px;
     color: hsl(26, 100%, 55%);
 }
 .side2 h1{
     font-size: 30px;
     color:  hsl(0, 0%, 0%);
     font-weight: bold;
+    font-weight: 800;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 .side2 h4{
     width:90%;
     font-size: 12px;
     line-height: 1rem;
     color: hsl(219, 9%, 45%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
 }
 .RR1{
     display: flex;
