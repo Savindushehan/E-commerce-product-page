@@ -374,6 +374,9 @@ header .R1{
 header .R1 img{
   margin-right: 5%;
 }
+.R0 #logo{
+    margin-right:1rem;
+}
 header .M1{
     margin-right: 5%;
     display:flex;
