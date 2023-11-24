@@ -162,23 +162,35 @@ P8.onclick=function(){
 
 P1.onclick=function(){
     F1.style.display="block";
+    P17.onclick=function(){
+        F1.style.display="none";
+    }
 }
 
 P2.onclick=function(){
     F1.style.display="block";
+    P17.onclick=function(){
+        F1.style.display="none";
+    }
 }
 
 P3.onclick=function(){
     F1.style.display="block";
+    P17.onclick=function(){
+        F1.style.display="none";
+    }
 }
 
 P4.onclick=function(){
     F1.style.display="block";
+     P17.onclick=function(){
+        F1.style.display="none";
+    }
 }
 var Q=1;
 
 P18.onclick=function(){
-    if(Q==1){
+   if(Q==1){
         P13.style.filter="opacity(50%)";
         P14.style.filter="none";
         P15.style.filter="none";
@@ -189,6 +201,7 @@ P18.onclick=function(){
         P12.style.display="none";
         ++Q;
     }
+    
     else if(Q==2){
         P14.style.filter="opacity(50%)";
         P13.style.filter="none";
@@ -223,9 +236,13 @@ P18.onclick=function(){
         P10.style.display="none";
         P11.style.display="none";
     }
+    P17.onclick=function(){
+        F1.style.display="none";
+    }
 
-    P19.onclick=function(){
-        --Q;
+}   
+P19.onclick=function(){
+    --Q;
          if(Q==3){
             P15.style.filter="opacity(50%)";
             P13.style.filter="none";
@@ -235,10 +252,9 @@ P18.onclick=function(){
             P9.style.display="none";
             P10.style.display="none";
             P12.style.display="none";
-            --Q;
     
         }
-        else if(Q==2){
+       else if(Q==2){
             P14.style.filter="opacity(50%)";
             P13.style.filter="none";
             P15.style.filter="none";
@@ -247,9 +263,9 @@ P18.onclick=function(){
             P9.style.display="none";
             P11.style.display="none";
             P12.style.display="none";
-            --Q;
     
         }
+        
         else if(Q==1){
             P13.style.filter="opacity(50%)";
             P14.style.filter="none";
@@ -263,12 +279,12 @@ P18.onclick=function(){
         else{
             return Q=1;
         }
-    }
+    
     P17.onclick=function(){
         F1.style.display="none";
     }
-   
 }
+
 
 MENU.onclick=function(){
     M1.style.display="block";
