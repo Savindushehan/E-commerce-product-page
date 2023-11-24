@@ -681,8 +681,13 @@ main .side2{
     height: 100vh;
     top: 0;
     overflow-x: hidden;
-    background-color:hsl(220, 13%, 13%);
-    filter: opacity(90%);
+    background-color:rgba(29, 32, 37, 0.637);    
+}
+#f1>img{
+    opacity: 1;
+}
+#p17{
+    background-color:  hsl(26, 100%, 55%);
 }
 #ccc{
     display: none;
